@@ -1,0 +1,75 @@
+{
+    "intents": [
+        {
+            "tag": "office_hours",
+            "patterns": [
+                "When are Professor Abbott's office hours?",
+                "What time can I meet Professor Deborah?",
+                "Office hours for Professor Abbott?",
+                "What are the office hours for Dr. John Smith?",
+                "Can I know Dr. Smith's availability?", 
+                "Could you tell me when are Professor Jerry Gao's office hours?",
+                "How can I meet professor Thalia Anagnos", 
+                "Where and how can I meet up with Dr. Benjamin Anderson?", 
+                "What time does Ben Reed have his office hours?"
+            ],
+            "responses": [
+                "You can meet [faculty_name] during [office_hours]."
+            ]
+        },
+        {
+            "tag": "info",
+            "patterns": [
+                "What is Professor Smith's information?",
+                "Can you give me info on Professor jerry Gao?",
+                "Who is Dr. Deborah Abbott?",
+                "Professor Smith?", 
+                "Give me information on Ben Reed.", 
+                "Benjamin Anderson.", 
+                "Tell me a little bit about Dr. Anderson.", 
+                "Give me Dr. Anderson's info."
+            ],
+            "responses": [
+                "[faculty_name] is a faculty at San Jose State University (SJSU). Their email is [email], office hours are [office_hours], and phone number is [phone]. You can read more about [faculty_name] at [url]."
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "Can you give me the contact information for professor jerry gao?",
+                "How can I contact ben reed?",
+                "Contact information for Professor Deborah Abbott", 
+                "Can you give me the email address of Dr. Anderson?",
+                "Can you give me the phone number for Ben Reed?",
+                "What's Ben Reed's email and phone number",
+                "Where can I reach Professor Jerry Gao?"
+            ],
+            "responses": [
+                "You can reach [faculty_name] at [email] and [phone]",
+                "[faculty_name]'s phone number is [phone].",
+                "[faculty_name]'s email address is [email].",
+                "[faculty_name] can be reached at [email] and [phone]."
+            ]
+        },
+        {
+            "tag": "lastname",
+            "patterns": [
+                "How can I reach out to professor gao?",
+                "What are deborah abbott's office hours?", 
+                "Who is professor reed?",
+                "Tell me about Professor Anderson.",
+                "Information on Professor Abbott."
+            ],
+            "responses": [
+                "Here are the results based on your query results: [faculty_name], [faculty_name], [faculty_name], and [faculty_name]. Which exact faculty are you referring to?"
+            ]
+        },
+        {
+            "tag": "unknown",
+            "patterns": [],
+            "responses": [
+                "I'm sorry, I didn't understand that. Could you please rephrase?"
+            ]
+        }
+    ]
+}
