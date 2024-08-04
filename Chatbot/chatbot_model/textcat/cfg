@@ -1,0 +1,11 @@
+{
+  "labels":[
+    "office_hours",
+    "info",
+    "contact",
+    "lastname",
+    "unknown"
+  ],
+  "threshold":0.0,
+  "positive_label":null
+}
